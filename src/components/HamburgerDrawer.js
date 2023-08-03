@@ -48,16 +48,16 @@ export default function TemporaryDrawer({ setCategory }) {
       </List>
       <Divider />
       <List>
-        {categories.map((category) => (
-          <ListItem key={category.category}>
+        {categories.map((data) => (
+          <ListItem key={data.category}>
             <ListItemButton
               style={{ padding: 4 }}
               onClick={() => {
-                setCategory(category.category);
+                setCategory(data.category.toLowerCase());
               }}
             >
-              <ListItemIcon>{category.icon}</ListItemIcon>
-              <ListItemText primary={category.category} />
+              <ListItemIcon>{data.icon}</ListItemIcon>
+              <ListItemText primary={data.category} />
             </ListItemButton>
           </ListItem>
         ))}

@@ -1,7 +1,5 @@
 import "./NewsContent.css";
 import { Button, Container } from "@mui/material";
-import googlePlay from "../../assets/google.png";
-import appleStore from "../../assets/apple.png";
 import NewsCard from "../NewsCard/NewsCard";
 
 const NewsContent = ({ newsArray, newsResult, news, setNews }) => {

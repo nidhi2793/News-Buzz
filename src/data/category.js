@@ -8,32 +8,32 @@ import DeviceHubOutlinedIcon from "@mui/icons-material/DeviceHubOutlined";
 
 const categories = [
   {
-    category: "general",
+    category: "General",
     icon: <NewspaperOutlinedIcon />,
   },
   {
-    category: "business",
+    category: "Business",
     icon: <BusinessOutlinedIcon />,
   },
   {
-    category: "entertainment",
+    category: "Entertainment",
     icon: <MovieIcon />,
   },
 
   {
-    category: "health",
+    category: "Health",
     icon: <HealthAndSafetyOutlinedIcon />,
   },
   {
-    category: "science",
+    category: "Science",
     icon: <ScienceOutlinedIcon />,
   },
   {
-    category: "sports",
+    category: "Sports",
     icon: <SportsCricketOutlinedIcon />,
   },
   {
-    category: "technology",
+    category: "Technology",
     icon: <DeviceHubOutlinedIcon />,
   },
 ];
